@@ -1,0 +1,351 @@
+ <-- 200 OK http://javascript.info/tutorial/hello-world (191ms)
+ Date: Wed, 26 Oct 2016 17:50:39 GMT
+ Content-Type: text/html; charset=utf-8
+ Transfer-Encoding: chunked
+ Connection: keep-alive
+ Set-Cookie: __cfduid=de17f43b80d92eaabd4e73560235863ed1477504239; expires=Thu, 26-Oct-17 17:50:39 GMT; path=/; domain=.javascript.info; HttpOnly
+ X-Powered-By: PHP/5.4.44-0+deb7u1
+ X-Drupal-Cache: HIT
+ Cache-Control: public, max-age=14400
+ Last-Modified: Tue, 25 Oct 2016 01:57:15 +0000
+ Expires: Wed, 26 Oct 2016 21:50:39 GMT
+ Vary: Accept-Encoding
+ CF-Cache-Status: HIT
+ Server: cloudflare-nginx
+ CF-RAY: 2f7fc078163f0956-DFW
+ OkHttp-Sent-Millis: 1477504239801
+ OkHttp-Received-Millis: 1477504239894
+ <!DOCTYPE html>
+ <html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr" id="html-main">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+ <title>Hello, World! | JavaScript Tutorial</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta property="fb:app_id" content="112959575461438"/>
+ <link rel="prev" href="/tutorial/setup-your-environment"/>
+ <link rel="up" href="/tutorial/first-steps"/>
+ <link rel="next" href="/tutorial/variables-and-statements"/>
+ <link rel="prev" href="/tutorial/setup-your-environment"/>
+ <link rel="next" href="/tutorial/variables-and-statements"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/modules/cck/theme/content-module.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/modules/dhtml_menu/dhtml_menu.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/modules/fbconnect/fbconnect.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/modules/myutils/jquery.alerts.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/modules/syntaxhighlighter/sh/styles/shCore.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/modules/syntaxhighlighter/sh/styles/shThemeDefault.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/modules/cck/modules/fieldgroup/fieldgroup.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/modules/views/css/views.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/themes/analytic/style.css?E"/>
+ <link type="text/css" rel="stylesheet" media="all" href="/themes/analytic/linkindication.css?E"/>
+ <script type="text/javascript" src="/misc/jquery.js?E"></script>
+ <script type="text/javascript" src="/misc/drupal.js?E"></script>
+ <script type="text/javascript" src="/modules/dhtml_menu/dhtml_menu.js?E"></script>
+ <script type="text/javascript" src="/modules/editor/user.js?E"></script>
+ <script type="text/javascript" src="/modules/editor/hotkeys.js?E"></script>
+ <script type="text/javascript" src="/modules/fbconnect/fbconnect.js?E"></script>
+ <script type="text/javascript" src="/modules/mistype/mistype.js?E"></script>
+ <script type="text/javascript" src="/modules/json_server/json_server.js?E"></script>
+ <script type="text/javascript" src="/modules/myfilter/myfilter.js?E"></script>
+ <script type="text/javascript" src="/modules/myutils/jquery.cookie.js?E"></script>
+ <script type="text/javascript" src="/modules/myutils/jquery.alerts.js?E"></script>
+ <script type="text/javascript" src="/modules/myutils/misc.js?E"></script>
+ <script type="text/javascript" src="/modules/syntaxhighlighter/sh/scripts//syntaxhighlighter.min.js?E"></script>
+ <script type="text/javascript">
+ <!--//--><![CDATA[//><!--
+ jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","clone":"clone"},"fbconnect":{"user_pictures":"allow","language_code":"en_US","app_id":"112959575461438","debug":1,"connect_js":"document.location.protocol + '\/\/connect.facebook.net\/en_US\/all.js'","loginout_mode":"manual","invite_name":"JavaScript Tutorial","fast_reg_mode":1,"fast_reg_autoname":0,"fbuid":null,"user":{"uid":0,"fbuid":null}},"baseurl":"http:\/\/javascript.info\/"});
+ //--><!]]>
+ </script>
+ <script type="text/javascript">
+ <!--//--><![CDATA[//><!--
+   SyntaxHighlighter.config.clipboardSwf = '/modules/syntaxhighlighter/sh/scripts/clipboard.swf'
+   $(function() {
+     SyntaxHighlighter.highlight()
+     })
+   
+ //--><!]]>
+ </script>
+ <script type="text/javascript"> </script>
+ </head>
+ <body class="body-main arial">
+  
+ <div class="make-it-center">
+  
+ <div id="logo-container">
+ <div class="clear-block">
+ <div id="logo-no-padding">
+ <div id="logo-picture">
+ <a href="/" style="text-decoration:none" title="Home"><h1 id="logo">JavaScript Tutorial</h1></a>
+ </div>
+ </div>
+ <div id="top-links">
+ <ul class="top-links-ul">
+ <li><a href="/user?destination=%2Fnode%2F8">Log in</a></li>
+ </ul>
+ </div>
+ </div>
+  
+ </div>
+  
+ <hr style="height:0;border:1px solid gray">
+  
+ <div class="column-2
+ no-left-column
+ ">
+  
+  
+ <div class="breadcrumb"><a href="/">Home</a> » <a href="/root">Tutorial</a> » <a href="/tutorial/basics">JavaScript: from the Ground to Closures</a> » <a href="/tutorial/first-steps">First Steps</a></div>
+ <div class="book-navigation book-navigation-upper" id="book-navigation-8">
+ <div class="page-links clear-block">
+ <a title="Go to previous page" class="page-previous" href="/tutorial/setup-your-environment">‹ Setup your environment</a>
+ <a title="Go to next page" class="page-next" href="/tutorial/variables-and-statements">Variables and statements ›</a>
+ </div>
+ </div>
+ <h1 class="title">Hello, World!</h1>  
+ <div class="main-content-block">
+ <div id="node" style="font-family:inherit" data-format="2" class="node node-nid-8">
+ <div style="float:right">
+ <a href="http://twitter.com/share" style="float:right" class="twitter-share-button" data-count="horizontal" data-via="iliakan">Tweet</a>
+ <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+ <div class="fb-social-like-widget"><fb:like href="http://javascript.info/tutorial/hello-world" send="false" layout="button_count" show_faces="false" width="" action="like" font="verdana" colorscheme="light"></fb:like></div> </div>
+ <span class="submitted"><a href="/users/ilya-kantor">Ilya Kantor</a></span>
+ <div class="content clear-block node-book" id="content-container"> <p>JavaScript is an interpreted language. That means: no compilation. You just write code and attach it to HTML.</p>
+ <p>The simplest way is to put JavaScript directives into <code>SCRIPT</code> tag somewhere inside the page.</p>
+ <p>Here is a <code>SCRIPT</code> tag containing single JavaScript statement. Please click the &#8216;Show&#8217; button to see the example.</p>
+ <p><pre class="source brush:js; html-script:true;height:100;run:true" style="">
+ &lt;!DOCTYPE HTML&gt;
+ &lt;html&gt;
+ &lt;body&gt;
+   &lt;p&gt;Header...&lt;/p&gt;
+   &lt;script&gt;
+     alert('Hello, World!')
+   &lt;/script&gt;
+   &lt;p&gt;...Footer&lt;/p&gt;
+ &lt;/body&gt;
+ &lt;/html&gt;
+ </pre></p>
+ <p>Note that contents of the <code>SCRIPT</code> block is not shown, instead, it is executed.</p>
+ <p>This example makes use of following elements:</p>
+ <dl>
+ <dt><code>&lt;script&gt; ... &lt;/script&gt;</code></dt>
+ <dd><code>&lt;script&gt;</code> tag tells browser that there is executable content inside. In older HTML standard, namely HTML4, a special attribute <code>type</code> was required. Although more up-to-date HTML5 makes it optional.
+ <p>Browser:</p>
+ <ol>
+ <li>Starts showing the page, shows <code>Header</code></li>
+ <li>Switches to JavaScript mode inside this tag and executes the contents of <code>&lt;script&gt;</code></li>
+ <li>Returns back to HTML-mode and continues with the page, outputs <code>Footer</code>.</li>
+ </ol>
+ </dd>
+ <dt><code>alert(...)</code></dt>
+ <dd>Outputs a message window on the screen and awaits until visitor presses OK</dd>
+ </dl>
+ <p>Not only reading, but actually testing and doing something on your own is very important. Below you can see a &#8220;check yourself&#8221; block. It contains a task and the solution.</p>
+ <p>Fulfil the task to ensure you got eveything right. </p>
+ <p><div style="font-family:inherit" data-format="2"><div class="task task-nid-20">
+ <div class="task-formulation"> <p>Create a page which outputs a &#8220;I am JavaScript!&#8221;. Save the document and open in the browser. Make sure everything works.</p>
+ <p>Or, in other words, create the page which works like: <a href="http://lookatcode.com/files/tutorial/browser/script/alert/index.html" class="liplay" target="_blank">tutorial/browser/script/alert/index.html</a>.</p>
+ </div>
+ <span class="task-solution-open">Open solution</span>
+ <div class="task-solution">
+ <div class="task-solution-header">Solution</div>
+ <p>Open source code of the given example to see the solution or just here: <a href="/play/tutorial/browser/script/alert/index.html" class="liplay" target="_blank">tutorial/browser/script/alert/index.html</a>.</p>
+ </div>
+ </div></div></p>
+ <p>On next pages we&#8217;ll go deeper into the examples and basic script building blocks.</p>
+ <div id="book-navigation-246" class="book-navigation">
+ <div class="page-links clear-block">
+ <a href="/tutorial/setup-your-environment" class="page-previous" title="Go to previous page">‹ Setup your environment</a>
+ <a title="Go to next page" class="page-next" href="/tutorial/variables-and-statements">Variables and statements ›</a>
+ </div>
+ </div>
+ </div>
+ <div style="clear:both"></div>
+ </div>
+  </div>
+  
+  </div>
+  
+ <div class="column-3"> <div class="block block-book" id="block-book-0">
+ <h2 class="title"><a href="/root" class="book-title">Tutorial</a></h2> <div class="content"><ul class="menu"><li class="expanded first dhtml-menu  active-trail"><a href="/tutorial/basics" id="dhtml_menu-201">JavaScript: from the Ground to Closures</a><ul class="menu"><li class="expanded first dhtml-menu  collapsed start-collapsed "><a href="/tutorial/javascript-and-related-technologies" id="dhtml_menu-552">Javascript and related technologies</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/overview" id="dhtml_menu-207">Overview: JavaScript, Flash, Java, Silverlight and ActiveX</a></li>
+ <li class="leaf last dhtml-menu "><a href="/tutorial/pre-coding" id="dhtml_menu-474">Pre-coding tips </a></li>
+ </ul></li>
+ <li class="expanded  dhtml-menu  active-trail"><a href="/tutorial/first-steps" id="dhtml_menu-553">First Steps</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/setup-your-environment" id="dhtml_menu-233">Setup your environment</a></li>
+ <li class="leaf  dhtml-menu  active-trail"><a href="/tutorial/hello-world" id="dhtml_menu-234" class="active">Hello, World!</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/variables-and-statements" id="dhtml_menu-235">Variables and statements</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/development" id="dhtml_menu-587">Browser Developer&#039;s Tools</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/user-interaction-alert-prompt-and-confirm" id="dhtml_menu-476">User interaction: alert, prompt and confirm</a></li>
+ <li class="expanded last dhtml-menu  collapsed start-collapsed "><a href="/tutorial/operators-and-constructs" id="dhtml_menu-271">Operators and constructs</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/operators" id="dhtml_menu-436">Operators</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/comparison-operators-ifelse" id="dhtml_menu-437">Comparison operators, if..else</a></li>
+ <li class="leaf last dhtml-menu "><a href="/tutorial/loops-and-switch" id="dhtml_menu-438">Loops and switch</a></li>
+ </ul></li>
+ </ul></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/functions-declarations-and-expressions" id="dhtml_menu-304">Functions: declarations and expressions</a></li>
+ <li class="expanded  dhtml-menu  collapsed start-collapsed "><a href="/tutorial/mastering-data-types" id="dhtml_menu-238">Mastering data types</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/string" id="dhtml_menu-262">String</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/number-math" id="dhtml_menu-320">Number, Math</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/objects" id="dhtml_menu-322">Objects</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/array" id="dhtml_menu-321">Array</a></li>
+ <li class="leaf last dhtml-menu "><a href="/tutorial/object-conversion" id="dhtml_menu-325">Conversion, toString and valueOf</a></li>
+ </ul></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/this" id="dhtml_menu-631">Four scents of &quot;this&quot;</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/type-detection" id="dhtml_menu-582">Type detection </a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/arguments" id="dhtml_menu-554">Function arguments</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/static-variables-methods-decorators" id="dhtml_menu-577">Static variables and methods</a></li>
+ <li class="expanded  dhtml-menu  collapsed start-collapsed "><a href="/tutorial/advanced-functions" id="dhtml_menu-289">Scopes and Closures</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/initialization" id="dhtml_menu-323">Initialization of functions and variables</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/closures" id="dhtml_menu-621">Closures</a></li>
+ <li class="leaf last dhtml-menu "><a href="/tutorial/with-operator" id="dhtml_menu-565">The &quot;with&quot; operator</a></li>
+ </ul></li>
+ <li class="leaf last dhtml-menu "><a href="/tutorial/decorators" id="dhtml_menu-633">Decorators</a></li>
+ </ul></li>
+ <li class="expanded  dhtml-menu  collapsed start-collapsed "><a href="/tutorial/browser" id="dhtml_menu-326">Document and Events</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/adding-script-html" id="dhtml_menu-574">Adding a script to HTML</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/browser-environment" id="dhtml_menu-329">Browser environment</a></li>
+ <li class="expanded  dhtml-menu  collapsed start-collapsed "><a href="/tutorial/dom" id="dhtml_menu-428">DOM </a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/dom-nodes" id="dhtml_menu-457">DOM Nodes</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/traversing-dom" id="dhtml_menu-459">Traversing the DOM</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/basic-dom-node-properties" id="dhtml_menu-460">Basic DOM Node properties</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/attributes-and-custom-properties" id="dhtml_menu-462">Attributes and custom properties</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/modifying-document" id="dhtml_menu-465">Modifying the document</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/document-write" id="dhtml_menu-521">Using document.write</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/searching-elements-dom" id="dhtml_menu-463">Searching elements in DOM</a></li>
+ <li class="leaf last dhtml-menu "><a href="/tutorial/more-references-forms-and-tables" id="dhtml_menu-600">More references in forms and tables</a></li>
+ </ul></li>
+ <li class="expanded  dhtml-menu  collapsed start-collapsed "><a href="/tutorial/view-and-position" id="dhtml_menu-478">View and position</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/styles-and-classes-getcomputedstyle" id="dhtml_menu-467">Styles and classes, getComputedStyle</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/re-introducing-css-positioning" id="dhtml_menu-477">Re-introducing CSS positioning</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/metrics" id="dhtml_menu-466">Metrics</a></li>
+ <li class="leaf last dhtml-menu "><a href="/tutorial/coordinates" id="dhtml_menu-604">Coordinates</a></li>
+ </ul></li>
+ <li class="expanded last dhtml-menu  collapsed start-collapsed "><a href="/tutorial/events" id="dhtml_menu-480">Events</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/introduction-browser-events" id="dhtml_menu-328">Introduction into browser events</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/obtaining-event-object" id="dhtml_menu-601">Obtaining the event object</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/bubbling-and-capturing" id="dhtml_menu-602">Bubbling and capturing</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/default-browser-action" id="dhtml_menu-603">The default browser action</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/event-delegation" id="dhtml_menu-496">Event delegation </a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/mouse-events" id="dhtml_menu-482">Mouse events</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/focus-blur" id="dhtml_menu-495">Focus/Blur: methods and events</a></li>
+ <li class="leaf last dhtml-menu "><a href="/tutorial/keyboard-events" id="dhtml_menu-497">Keyboard events</a></li>
+ </ul></li>
+ </ul></li>
+ <li class="expanded  dhtml-menu  collapsed start-collapsed "><a href="/tutorial/object-oriented-programming" id="dhtml_menu-566">Object Oriented Programming</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/inheritance" id="dhtml_menu-598">Prototypal inheritance </a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/native-prototypes" id="dhtml_menu-626">Extending Natives</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/constructor" id="dhtml_menu-625">The &quot;constructor&quot; property</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/instanceof" id="dhtml_menu-624">The &quot;instanceof&quot; operator</a></li>
+ <li class="expanded  dhtml-menu  collapsed start-collapsed "><a href="/tutorial/oop" id="dhtml_menu-614">OOP patterns</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/oop-concepts" id="dhtml_menu-488">General concepts </a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/pseudo-classical-pattern" id="dhtml_menu-613">Pseudo-classical pattern</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/all-one-constructor-pattern" id="dhtml_menu-615">All-in-one constructor pattern</a></li>
+ <li class="leaf last dhtml-menu "><a href="/tutorial/factory-constructor-pattern" id="dhtml_menu-617">Factory constructor pattern</a></li>
+ </ul></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/binding" id="dhtml_menu-616">Early and Late Binding</a></li>
+ <li class="leaf last dhtml-menu "><a href="/tutorial/exceptions" id="dhtml_menu-561">Exceptions</a></li>
+ </ul></li>
+ <li class="expanded  dhtml-menu  collapsed start-collapsed "><a href="/tutorial/timing" id="dhtml_menu-609">Timing</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/datetime-functions" id="dhtml_menu-522">Date/Time functions</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/settimeout-setinterval" id="dhtml_menu-567">Understanding timers: setTimeout and setInterval </a></li>
+ <li class="leaf last dhtml-menu "><a href="/tutorial/events-and-timing-depth" id="dhtml_menu-568">Events and timing in-depth 深入事件和定时机制</a></li>
+ </ul></li>
+ <li class="expanded  dhtml-menu  collapsed start-collapsed "><a href="/tutorial/frames-and-windows" id="dhtml_menu-555">Frames and windows</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/popup-windows" id="dhtml_menu-557">Popup windows</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/browser-window-properties-and-methods" id="dhtml_menu-560">Browser window properties and methods</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/focus" id="dhtml_menu-563">Focus/blur methods and events</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/frames-and-iframes" id="dhtml_menu-556">Frames and iframes</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/same-origin-security-policy" id="dhtml_menu-558">The &quot;Same Origin&quot; security policy</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/cross-window-messaging-with-postmessage" id="dhtml_menu-559">Cross-window messaging with postMessage</a></li>
+ <li class="leaf last dhtml-menu "><a href="/tutorial/clickjacking" id="dhtml_menu-564">The Clickjacking attack, X-Frame-Options</a></li>
+ </ul></li>
+ <li class="expanded  dhtml-menu  collapsed start-collapsed "><a href="/tutorial/regular-expressions-javascript" id="dhtml_menu-585">Regular expressions in JavaScript</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/regexp-introduction" id="dhtml_menu-589">Introduction</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/character-classes" id="dhtml_menu-584">Character classes</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/special-characters" id="dhtml_menu-586">Special characters</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/flags" id="dhtml_menu-590">Flags</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/character-sets-and-ranges" id="dhtml_menu-588">Character sets and ranges</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/numeric-quantifiers" id="dhtml_menu-591">Numeric Quantifiers</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/quantifiers-and" id="dhtml_menu-618">Quantifiers +, * and ?</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/greedy-and-lazy" id="dhtml_menu-592">Greedy and Lazy</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/ahchors-and-multiline-mode" id="dhtml_menu-593">Ahchors and multiline mode</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/word-boundary" id="dhtml_menu-619">Word boundary</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/infinite-backtracking-problem" id="dhtml_menu-628">Infinite backtracking problem</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/groups" id="dhtml_menu-595">Groups</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/alternation" id="dhtml_menu-594">Alternation </a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/regular-expressions-methods" id="dhtml_menu-620">Regular expressions methods </a></li>
+ <li class="leaf last dhtml-menu "><a href="/tutorial/practice" id="dhtml_menu-627">Practice </a></li>
+ </ul></li>
+ <li class="expanded last dhtml-menu  collapsed start-collapsed "><a href="/tutorial/advanced-and-extra-stuff" id="dhtml_menu-623">Advanced and Extra stuff</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/tutorial/onload-ondomcontentloaded" id="dhtml_menu-519">onLoad and onDOMContentLoaded</a></li>
+ <li class="leaf  dhtml-menu "><a href="/tutorial/animation" id="dhtml_menu-605">Animation</a></li>
+ <li class="leaf last dhtml-menu "><a href="/tutorial/memory-leaks" id="dhtml_menu-622">Memory leaks</a></li>
+ </ul></li>
+ </ul></div>
+ </div>
+ </div>
+  
+  
+ <div id="footer" class="clear-block">
+ <div class="clear-both">
+ <p>The content of this site is available under the terms of <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed">CC BY-NC-SA</a>. </p>
+ <p>&copy; Ilya Kantor, 2011.</p>
+ <div id="tm" style="margin-top:5px;font-size:1.1em">"JavaScript&trade; is a registered trademark of Oracle corp. This site is not affiliated with Oracle corp.</div>
+ <div id="fb-root"></div><script type="text/javascript">
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId: "112959575461438",
+          status: true, 
+          cookie: true,
+          xfbml: true,
+          channelUrl: "http:\/\/javascript.info\/fb_social\/channel",
+        });
+        
+        
+        
+          
+      };
+      (function() {
+        var e = document.createElement('script'); 
+        e.async = true;
+        e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+        document.getElementById('fb-root').appendChild(e);
+      }());
+   </script> </div>
+ </div>
+  
+ <script>
+     var _gaq = window._gaq = [];
+     _gaq.push(["_addOrganic", "go.mail.ru","q"]);
+     _gaq.push(["_addOrganic", "nova.rambler.ru","query"]);
+     _gaq.push(["_addOrganic", "nigma.ru", "s"]);
+     _gaq.push(["_addOrganic", "blogs.yandex.ru", "text", true]);
+     _gaq.push(["_addOrganic", "webalta.ru", "q"]);
+     _gaq.push(["_addOrganic", "aport.ru", "r"]);
+     _gaq.push(["_addOrganic", "akavita.by", "z"]);
+     _gaq.push(["_addOrganic", "meta.ua", "q"]);
+     _gaq.push(["_addOrganic", "bigmir.net", "q"]);
+     _gaq.push(["_addOrganic", "tut.by", "query"]);
+     _gaq.push(["_addOrganic", "all.by", "query"]);
+     _gaq.push(["_addOrganic", "i.ua", "q"]);
+     _gaq.push(["_addOrganic", "online.ua", "q"]);
+     _gaq.push(["_addOrganic", "a.ua", "s"]);
+     _gaq.push(["_addOrganic", "ukr.net", "search_query"]);
+     _gaq.push(["_addOrganic", "search.com.ua", "q"]);
+     _gaq.push(["_addOrganic", "search.ua", "query"]);
+     _gaq.push(["_addOrganic", "poisk.ru", "text"]);
+     _gaq.push(["_addOrganic", "km.ru", "sq"]);
+     _gaq.push(["_addOrganic", "liveinternet.ru", "ask"]);
+     _gaq.push(["_addOrganic", "quintura.ru", "request"]);
+     _gaq.push(["_addOrganic", "search.qip.ru","query"]);
+     _gaq.push(["_addOrganic", "gde.ru","keywords"]);
+     _gaq.push(["_addOrganic", "search.ukr.net","search_query"]);
+     _gaq.push(["_addOrganic", "gogo.ru","q"]);
+     _gaq.push(['_setAccount', 'UA-2056213-15']);
+     _gaq.push(['_trackPageview']);
+     (function() {
+         var ga = document.createElement('script');
+         ga.async = true;
+         ga.src = 'http://google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0];
+         s.parentNode.insertBefore(ga, s);
+     })();
+ </script>
+ </div>
+  
+ </body>
+ </html>
+ <-- END HTTP (25229-byte body)
+Separate: *********************************************************************
+final info: <!DOCTYPE
